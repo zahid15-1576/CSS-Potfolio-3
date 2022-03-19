@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h2{
+	font-size: 50px;
+	text-transform: uppercase;
+    font-family: 'Fredoka', sans-serif;
+}
+.bg-1{
+    background-color: #23232e;
+    text-align: center;
+    color: white;
+    padding: 20px 20%;
+    overflow: hidden;
+}
+
+.bg-2{
+    background-image: url("images/back.png");
+	text-align: center;
+	padding: 20px 20%;
+	color: #464b4f;
+    overflow: hidden;
+    
+}
+.header img{
+	width: 11%;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+.header .txt{
+	font-size: 12px;
+    padding: 30px 0;
+}
+.header .circle{
+	border: 1px solid white;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+    margin: auto;
+}
+/*this is what i do section*/
+
+.what-i-do .my-name{
+    padding: 40px 0;
+    width: 65%;
+    font-size: 20px;
+    margin: auto;
+}
+.what-i-do .col{
+	width: 31.33%;
+	margin: 1%;
+	float: left;
+	text-align: left;
+    padding: 40px 0;
+    
+}
+.what-i-do .col h4{
+	text-transform: uppercase;
+}
+
+
+
+
+/* my-work section */
+.list {
+    padding: 20px 0;
+}
+.my-work ul{
+    padding-top: 40px;
+    display: flex;
+}
+.my-work ul li{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+.my-work ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.col-1{
+    width: 29%;
+    float: left;
+    padding-top: 1px;
+    margin: 1%;
+}
+
+.my-work .col-1 img{
+    width: 100%;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #7b77c9;
+    color: white;
+    border-radius: 5px;  
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.pho .my-name{
+    padding: 20px 0;
+    width: 65%;
+    font-size: 25px;
+    margin: auto;
+    color: #888a8b;
+}
+.pho .col-1 img{
+    width: 100%;
+}
+
+
+
+
+.sub{
+    padding: 150px 0;
+}
+.sub i{
+    font-size: 40px;
+    margin: 20px;
+}
+.sub p{
+    font-size: 12px;
+    line-height: 25px;
+    margin: 20px;
+}
+
+.sub .input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.icon{
+    margin: 70px 0;
+}
+.icon i{
+    font-size: 30px;
+    padding: 20px;
+    color: #dbdbdb;
+}
+
+
+
+
+
+@media screen and (max-width: 760px) {
+    
+
+
+
+    /* what i do */
+    .what-i-do .my-name{
+        padding: 40px 0;
+        width: 65%;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .what-i-do .col{
+        width: 60%;
+        margin-left: 90px;
+        text-align: left;
+        padding: 10px 0;
+        font-size: 20px;
+        
+    }
+
+
+    .col-1{
+        width: 60%;
+        padding-top: 1px;
+        margin: 1%;
+        margin-left: 90px;
+    }
+
+
+    .header img{
+        width: 15%;
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+  }
+
